@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="google-site-verification" content="ggdBtjl8OK2lsw0IeLMF2tQJnuvLqXydbnAp_915N0M" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+  <meta charset="utf-8">
+  <title>評價填寫 - NCUEHULOLO</title>
+  <meta property="og:image" content="https://ncuehulolo.idv.tw/static/assets/brand/og_hulolo.png">
+  <meta property="og:description" content="彰師最佳選課小幫手！">
+  <meta name="description" content="由學生設站並提供彰師大課程評價查詢與投稿服務，讓學弟妹選課時更清楚課程能帶來的收穫，達到學生與教師間修課品質的良性循環。">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="/static/new/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/new/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/static/new/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/static/new/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/static/new/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="/static/new/assets/css/style.css" rel="stylesheet">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T333L4QQGV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-T333L4QQGV');
+  </script>
+  <!-- =======================================================
+    * Template Name: eNno - v4.6.0
+    * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+  <style>
+    .orange-word {
+      color: #f2971b;
+    }
+
+    .grey-bg {
+      background: #fafafa;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      border-radius: 5px;
+    }
+
+    .white-bg {
+      background: #ffffff;
+      background-size: cover;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+
+    /*進入表單 */
+    #enterform-btn {
+      background-color: #e6992f;
+      border-radius: 10px;
+      border: #ffffff solid 2px;
+      padding: 10px;
+      padding-right: 30px;
+      padding-left: 30px;
+      color: #ffffff;
+      font-weight: 900;
+    }
+
+    #enterform-btn:hover {
+      background-color: #ca8525;
+      border-radius: 10px;
+      /* border: #ffffff solid 1px; */
+      padding: 10px;
+      padding-right: 30px;
+      padding-left: 30px;
+      color: #ffffff;
+      font-weight: 900;
+    }
+
+    #enterImg {
+      padding-bottom: 10px;
+      padding-top: 20px;
+    }
+
+    #intro {
+      background: #ffffff;
+      background-size: cover;
+      padding-bottom: 0px;
+      padding-top: 20px;
+    }
+
+    .btn:focus {
+      box-shadow: none;
+    }
+
+    /*確認送出 繼續投稿鈕*/
+    .go-btn {
+      border-radius: 10px;
+      /* border: #f2971b solid 1px; */
+      padding: 10px;
+      padding-right: 25px;
+      padding-left: 25px;
+      color: #f2971b;
+      font-weight: 900;
+      box-shadow: 1px 1px rgba(201, 201, 201, 0.5);
+    }
+
+    .go-btn:hover {
+      /* background-color: #ce7f10; */
+      /* border-color: #dd8913; */
+      padding: 10px;
+      padding-right: 25px;
+      padding-left: 25px;
+      color: #f2971b;
+      box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+    }
+
+    /*上一頁 下一頁 回到首頁鈕*/
+    .page-btn {
+      border-radius: 10px;
+      /* border: #dd8913 solid 1px; */
+      padding: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      color: #969696;
+      font-weight: 900;
+      box-shadow: 1px 1px rgba(201, 201, 201, 0.5);
+    }
+
+    .page-btn:hover {
+      background-color: #eeeeee;
+      padding: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      color: #969696;
+      box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+    }
+
+    /*modal*/
+    .btn-shadow:focus {
+      box-shadow: none;
+    }
+
+    /*modal btn*/
+    .modal-rightbtn {
+      border-radius: 10px;
+      /* border: #f2971b solid 1px; */
+      padding: 5px;
+      padding-right: 15px;
+      padding-left: 15px;
+      color: #f2971b;
+      font-weight: 900;
+      box-shadow: 1px 1px rgba(201, 201, 201, 0.5);
+    }
+
+    .modal-rightbtn:hover {
+      padding: 5px;
+      padding-right: 15px;
+      padding-left: 15px;
+      color: #f2971b;
+      box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+    }
+
+    .modal-leftbtn {
+      border-radius: 10px;
+      /* border: #dd8913 solid 1px; */
+      padding: 5px;
+      padding-right: 15px;
+      padding-left: 15px;
+      color: #969696;
+      font-weight: 900;
+      box-shadow: 1px 1px rgba(201, 201, 201, 0.5);
+    }
+
+    .modal-leftbtn:hover {
+      background-color: #f7f7f7;
+      padding: 5px;
+      padding-right: 15px;
+      padding-left: 15px;
+      color: #969696;
+      box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+    }
+
+    /*01 課程評價類型 字*/
+    .question {
+      color: rgb(58, 58, 58);
+    }
+
+    /*info icon*/
+    .info-icon {
+      color: #f2971b;
+    }
+
+    /*checkbox選項*/
+    input[type=checkbox] {
+      box-shadow: none;
+    }
+
+    input[type=checkbox]:checked {
+      background-color: #f2971b;
+      border-color: #f2971b;
+      box-shadow: none;
+    }
+
+    input[type=checkbox]:focus {
+      border-color: #f2971b;
+    }
+
+    .form-check-input:focus {
+      box-shadow: none;
+    }
+
+    /*select*/
+    .form-select {
+      box-shadow: none;
+      border-color: #ffecb8;
+    }
+
+    .form-select:focus {
+      box-shadow: none;
+      border-color: #f2971b;
+    }
+
+    /*radio選項*/
+    input[type=radio]:checked {
+      background-color: #f2971b;
+      border-color: #f2971b;
+      box-shadow: none;
+    }
+
+    input[type=radio]:focus {
+      border-color: #f2971b;
+    }
+
+    /*input框*/
+    .form-control:focus {
+      box-shadow: none;
+    }
+
+    .input {
+      background-color: #ffffff;
+      border-color: #ffecb8;
+    }
+
+    .input:focus {
+      border-color: #f2971b;
+    }
+
+    /*浮動按鈕*/
+    .float-btn:focus {
+      box-shadow: none;
+    }
+
+    #float {
+      background-color: rgb(236, 177, 133);
+      border-radius: 5px;
+      position: fixed;
+      bottom: 3%;
+      margin-right: 13px;
+      z-index: 999;
+      right: 0px;
+      margin-top: 30px;
+      margin-bottom: 0px;
+      margin-left: 30px;
+    }
+
+    .bi-layout-text-sidebar-reverse {
+      color: #ffffff;
+    }
+
+    .float-menu {
+      position: fixed;
+      top: 25%;
+      right: 0px;
+    }
+
+    .pointer {
+      background-color: #fff;
+      text-indent: 0;
+      display: inline-block;
+      font-size: 1em;
+      font-style: normal;
+      height: 40px;
+      line-height: 40px;
+      width: 100px;
+      text-decoration: none;
+      text-align: center;
+      margin-bottom: 5px;
+      border-left: #f7bd17 5px solid;
+      color: #b6b6b6;
+    }
+
+    .pointer:hover {
+      color: #f2971b;
+      border-left: #f2971b 8px solid;
+    }
+
+    /*tooltip*/
+    .tooltip {
+      position: relative;
+    }
+
+    .tooltip.show {
+      opacity: 1.0;
+    }
+
+    .tooltip-inner {
+      background-color: #916e55;
+      max-width: 400px;
+      text-align: left;
+    }
+
+    .tooltip.bs-tooltip-right .tooltip-arrow::before {
+      border-right-color: #916e55;
+    }
+
+    .tooltip.bs-tooltip-left .tooltip-arrow::before {
+      border-left-color: #916e55;
+    }
+
+    .tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+      border-bottom-color: #916e55;
+    }
+
+    .tooltip.bs-tooltip-top .tooltip-arrow::before {
+      border-top-color: #916e55;
+    }
+
+    .tooltip.bs-tooltip-end .tooltip-arrow::before {
+      border-right-color: #916e55;
+    }
+
+    .error-right {
+      color: #D82424;
+      font-weight: normal;
+      font-family: "微軟正黑體";
+      display: inline;
+    }
+
+    .error-bottom {
+      color: #D82424;
+      font-weight: normal;
+      font-family: "微軟正黑體";
+      margin-top: 8px;
+      margin-bottom: 0px;
+    }
+  </style>
+</head>
+
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="/">
+          <img src="/static/assets/brand/HULOLO.png" class="img-fluid animated" alt="">
+          <img src="/static/assets/brand/HULOLO_page.png" style="position:relative;top:-6px" class="img-fluid animated"
+            alt="">
+        </a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="/search">查詢評價</a></li>
+          <li class="dropdown"><a href="#"><span>評價燈號狀態</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/department">各系課程</a></li>
+              <li><a href="/general">通識課程</a></li>
+              <li><a href="/general/education">教育學程</a></li>
+              <li><a href="/general/language">精進中、英外文</a></li>
+              <li><a href="/general/pe">大二、大三四體育</a></li>
+              <li><a href="/general/military">軍訓</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>生物學系專區</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/biology">系各年級課程燈號</a></li>
+              <li><a href="/biology/activity">系活動行事曆</a></li>
+              <li><a href="/biology/album">系活動照片與影片</a></li>
+              <li><a href="/biology/previous_exam">系歷年考古題</a></li>
+              <li><a href="/biology/signin">系學會幹部登入管理</a></li>
+            </ul>
+          </li>
+
+          <li><a class="nav-link scrollto" href="/form">評價投稿</a></li>
+          <li><a class="nav-link scrollto" href="/subscribe">訂閱方案</a></li>
+          <li class="dropdown"><a href="#"><span>關於小生物</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/QA">問題建議</a></li>
+              <li><a href="/partners">團隊夥伴</a></li>
+              <li><a href="/recruitment">招募資訊 🍭</a></li>
+
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="/accounts/line/login/">登入</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main mt-4">
+    <!-- ======= Feedback Section ======= -->
+    <!--before enter the form START-->
+    <div id="beforeEnter">
+      <br><br><br><br><br>
+      <!-- <div valign="center"> -->
+      <div class="section-title">
+        <span>Submit</span>
+        <h2>評價投稿</h2>
+        <!--notice section-->
+        <section id="cta" class="cta mt-5" style="background: #fff3cd; background-size : cover">
+          <div class="container">
+            <h3 class="orange-word" style="color: #f2971b;">投稿前要注意的事</h3>
+            <p style="color: #5a5a5a;">每學期網路預選至第二階段選課結束為開放評價投稿與抽獎期間。</p>
+            <div class="section-title ">
+              <ul class="list-group" style="background-color: #edf5e5 ; text-align: left;">
+                <li class="list-group-item" style="color: #41a0aa">0. 貼心小提醒，本學期有填寫評價同學在未來小生物中將獲得優惠！</li>
+                <li class="list-group-item">1. 填寫前可參考網站所顯示的評價燈號狀態。</li>
+                <li class="list-group-item">2. 一次表單填一則評價，欲填多堂課程評價，重複繳交即可。</li>
+                <li class="list-group-item">3. 請以客觀描述，勿人身攻擊哦！</li>
+                <li class="list-group-item">4. LINE限制關係，如該課程評價已擁有四則以上投稿，團隊將會進行篩選，保留更能提供資訊且充實的評價。</li>
+                <li class="list-group-item">5. 在評價內容上，除排版需要與錯字，我們並不會對內容進行變動。</li>
+                <li class="list-group-item">6. 為了顧及評價品質，我們有限定評價最低字數，請一定要認真寫> <。< /li>
+                <li class="list-group-item">7. 本服務由學生自發性無償開發，並未受學校任何計畫與經費支持。</li>
+              </ul>
+              <a id="enterform-btn" class="btn mt-5">進入表單</a>
+            </div>
+          </div>
+        </section>
+        <!--notice section end-->
+      </div>
+      <!-- </div> -->
+    </div>
+    <!--before enter the form END-->
+
+    <!--after enter the form START-->
+    <div id="afterEnter">
+      <br><br>
+      <div class="container">
+        <div class="row d-flex justify-content-center ">
+          <div class="col-lg-10">
+            <div id="enterImg" class="section-title">
+              <img class="img-fluid imgsetting" src="/static/assets_home/img/illustrations/表單封面.png">
+            </div>
+            <!--intro section-->
+            <div id="intro" class="cta">
+              <div class="container d-flex justify-content-lg-center">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h3 class="fw-bolder d-flex justify-content-center orange-word" style="color: #f2971b;">彰師小生物課程評價投稿
+                    </h3>
+                    <h4 class="d-flex justify-content-center">來給呼嚕嚕小生物餵食！</h4>
+                    <ul>
+                      <li style="color: #41a0aa">
+                        【注意事項】
+                        https://ncuehulolo.idv.tw/form
+                        提交表單時即同意連結內提及事項。
+                      </li>
+                      <li>抽獎活動時間為：即日起至111/03/05(23:59)止-(即第二階段網路加退選截止後一日)。</li>
+                      <li>本次表單大約花費至少15分鐘，您的填寫將幫助很多同學節省無數個15分鐘的選課迷茫。</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--intro section end-->
+          </div>
+        </div>
+      </div>
+
+      <!--題目區-->
+      <form class="form" action="" method="post">
+        <div class="container">
+          <!--浮動按鈕-->
+          <div>
+            <div id="float">
+              <a class="btn float-btn">
+                <i class="bi bi-layout-text-sidebar-reverse"></i>
+              </a>
+            </div>
+
+            <div class="float-menu">
+              <a id="c-type" class="pointer">評價類型</a><br>
+              <a id="c-info" class="pointer">課程資訊</a><br>
+              <a id="c-evaluation" class="pointer">評價填寫</a><br>
+              <a id="c-recommend" class="pointer">推薦程度</a><br>
+              <a id="c-who" class="pointer">投稿資訊</a><br>
+              <a id="c-prize" class="pointer">來抽獎囉</a><br>
+            </div>
+          </div>
+
+          <div id="page1">
+            <div class="row d-flex justify-content-center ">
+              <div class="col-lg-10 my-3 p-3 bg-white rounded shadow-sm">
+                <!--01 課程評價類型 section-->
+                <section id="classType" class="cta grey-bg">
+                  <div class="container px-lg-5">
+                    <div class="row">
+                      <!--左-->
+                      <div class="col-sm-3 align-self-center justify-content-center">
+                        <div class="row">
+                          <h5 class="fw-bolder align-items-center question">01 課程評價類型</h5>
+                        </div>
+                      </div>
+                      <!--右-->
+                      <div class="col-sm-9 align-self-center justify-content-center">
+                        <div class="row mt-2">
+                          <div class="col-sm-3 col-md-6 col-lg-3">
+                            <div class="form-check">
+                              <input id="department" class="form-check-input" type="checkbox" name="evaluation"
+                                value="系上課程">
+                              <label class="form-check-label" for="department">系上課程</label>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3 col-md-6 col-lg-3">
+                            <div class="form-check">
+                              <input id="general" class="form-check-input" type="checkbox" name="evaluation"
+                                value="通識課程">
+                              <label class="form-check-label" for="general">通識課程</label>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="form-check">
+                              <input id="advanced" class="form-check-input" type="checkbox" name="evaluation"
+                                value="精進中英外文">
+                              <label class="form-check-label" for="advanced">精進中、英外文</label>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row mt-1">
+                          <div class="col-sm-3 col-md-6 col-lg-3">
+                            <div class="form-check">
+                              <input id="education" class="form-check-input" type="checkbox" name="evaluation"
+                                value="教育學程">
+                              <label class="form-check-label" for="education">教育學程</label>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3 col-md-6 col-lg-3">
+                            <div class="form-check">
+                              <input id="2ndPE" class="form-check-input" type="checkbox" name="evaluation" value="大二體育">
+                              <label class="form-check-label" for="2ndPE">大二體育</label>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3 col-md-6 col-lg-3">
+                            <div class="form-check">
+                              <input id="3thPE" class="form-check-input" type="checkbox" name="evaluation"
+                                value="大三四體育">
+                              <label class="form-check-label" for="3thPE">大三、四體育</label>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-3 col-md-6 col-lg-3">
+                            <div class="form-check">
+                              <input id="military" class="form-check-input" type="checkbox" name="evaluation"
+                                value="軍訓">
+                              <label class="form-check-label" for="military">軍訓</label>
+                            </div>
+                          </div>
+
+                          <p id="type" class="error-bottom" style="color: #D82424;"></p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--課程評價類型 end-->
+
+                <!--02 課程資訊 section-->
+                <section id="classInfo" class="cta white-bg">
+                  <div class="container px-lg-5">
+                    <div class="row">
+                      <!--左-->
+                      <div class="col-sm-3 align-self-center justify-content-center">
+                        <div class="row">
+                          <h5 class="fw-bolder align-items-center question">02 課程資訊</h5>
+                        </div>
+                      </div>
+                      <!--右-->
+                      <div class="col-sm-9 align-self-center justify-content-center">
+                        <div class="row mt-2">
+                          <!--開課學系-->
+                          <div class="col-12 departmentinput">
+                            <div class="mb-3">
+                              <h6>
+                                <label for="formGroupExampleInput" class="form-label fw-bolder">開課學系</label>
+                              </h6>
+                              <div>
+                                <h6>請選擇學院</h6>
+                                <select id="college-list" class="form-select" aria-label="Default select example"
+                                  onchange="changeCollege(this.selectedIndex)"></select>
+                                <h6>
+                                  <label class="mt-3 inputdepartment form-label">請選擇科系&thinsp;</label>
+                                  <p id="otherdepartment" class="error-right"></p>
+                                </h6>
+                                <select id="sector-list" class="form-select"
+                                  aria-label="Default select example"></select>
+                                <input type="text" id="inputdepartment" class="form-control input" autocomplete="off"
+                                  required>
+                              </div>
+                            </div>
+                          </div>
+                          <!--老師名-->
+                          <div class="col-12">
+                            <div class="mb-3">
+                              <h6>
+                                <label for="teacherName" class="form-label">授課老師名&thinsp;</label>
+                                <i class="bi bi-info-circle-fill info-icon" data-toggle="tooltip"
+                                  data-bs-placement="right" title="如有兩位老師請接續打不空格，e.g.王小銘李小華；三位以上老師直接打【合開】即可(含括號)">
+                                </i>
+                                <p id="teacher" class="error-right"></p>
+                              </h6>
+                              <input id="teacherName" type="text" class="form-control input" autocomplete="off"
+                                required>
+                            </div>
+                          </div>
+                          <!--課程名稱-->
+                          <div class="col-12">
+                            <div class="mb-3">
+                              <h6>
+                                <label for="className" class="form-label">投稿課程名稱</label>
+                                <p id="class" class="error-right"></p>
+                              </h6>
+                              <input id="className" type="text" class="form-control input" autocomplete="off" required>
+                            </div>
+                          </div>
+                          <!--修課學期-->
+                          <div class="col-12">
+                            <div>
+                              <h6><label for="semester" class="form-label">修課學期</label></h6>
+                              <select id="semester" class="form-select" aria-label="Default select example">
+                                <option value="110_1">110-1&emsp;(2021.09~2022.01)</option>
+                                <option value="109_2">109-2&emsp;(2021.01~2021.06)</option>
+                                <option value="109_1">109-1&emsp;(2020.09~2021.01)</option>
+                                <option value="108_2">108-2&emsp;(2020.01~2020.06)</option>
+                                <option value="108_1">108-1&emsp;(2019.09~2020.01)</option>
+                                <option value="107_2">107-2&emsp;(2019.01~2019.06)</option>
+                                <option value="107_1">107-1&emsp;(2018.09~2019.01)</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--課程資訊 end-->
+              </div>
+            </div>
+
+            <!--下一頁按鈕-->
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-10">
+                <ul style="padding-left: 0px;">
+                  <li class="btn mt-2 mb-2 float-end">
+                    <h5><button type="button" id="Next" class="btn go-btn">下一頁</button></h5>
+                  </li>
+                  <li class="btn mt-2 mb-2 float-end">
+                    <h5>
+                      <button type="button" id="PrevioustoEnter" class="btn page-btn">
+                        上一頁
+                      </button>
+                    </h5>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="page2">
+            <div class="row d-flex justify-content-center mt-3">
+              <div class="col-lg-10 my-3 p-3 bg-white rounded shadow-sm">
+                <!--03-1 課程評價填寫1 section-->
+                <section id="classEvaluation" class="cta grey-bg">
+                  <div class="container px-lg-5">
+                    <div class="row">
+                      <!--左-->
+                      <div class="col-sm-3 align-self-center justify-content-center">
+                        <div class="row">
+                          <h5 class="fw-bolder align-items-center question">03 評價填寫</h5>
+                          <p class="words error-right" style="color: #D82424;"></p>
+                        </div>
+                      </div>
+                      <!--右-->
+                      <div class="col-sm-9 align-self-center justify-content-center">
+                        <div class="row mt-2">
+                          <!--上課方式-->
+                          <div class="col-12">
+                            <div class="mb-3">
+                              <h6>
+                                <label class="form-label">上課方式 &thinsp; </label>
+                                <i class="bi bi-info-circle-fill info-icon" data-toggle="tooltip"
+                                  data-bs-placement="right" title="純板書、PPT、PPT板書混合、多數時間分組報告、影片、電腦教室上課、遠距教學">
+                                </i>
+                                <p class="method error-right" style="color: #D82424;"></p>
+                              </h6>
+                              <textarea id="method" type="text" class="form-control input" rows="2" required></textarea>
+                            </div>
+                          </div>
+                          <!--上課內容-->
+                          <div class="col-12">
+                            <div class="mb-3">
+                              <h6>
+                                <label class="form-label">上課內容</label>
+                                <p class="content error-right" style="color: #D82424;"></p>
+                              </h6>
+                              <textarea id="content" type="text" class="form-control input" rows="2"
+                                required></textarea>
+                            </div>
+                          </div>
+                          <!--點名頻率-->
+                          <div class="col-12">
+                            <div class="mb-3">
+                              <h6>
+                                <label for="formGroupExampleInput" class="form-label">點名頻率 &thinsp; </label>
+                                <i class="bi bi-info-circle-fill info-icon" data-toggle="tooltip"
+                                  data-bs-placement="right" title="點名方式、點名頻率、是否計分">
+                                </i>
+                                <p class="call error-right" style="color: #D82424;"></p>
+                              </h6>
+                              <input id="call" type="text" class="form-control input" id="formGroupExampleInput"
+                                autocomplete="off" required>
+                            </div>
+                          </div>
+                          <!--分數甜度/評分標準-->
+                          <div class="col-12">
+                            <div>
+                              <h6>
+                                <label for="formGroupExampleInput" class="form-label">分數甜度/評分標準 &thinsp; </label>
+                                <i class="bi bi-info-circle-fill info-icon" data-toggle="tooltip"
+                                  data-bs-placement="right" title="有沒有心得作業、期中期末考或課堂小考，總成績合理嗎？">
+                                </i>
+                                <p class="points error-right" style="color: #D82424;"></p>
+                              </h6>
+                              <textarea id="points" type="text" class="form-control input" rows="2" required></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--評價填寫1 end-->
+
+                <!--課程評價填寫2 section-->
+                <section id="classEvaluation2" class="cta white-bg">
+                  <div class="container px-lg-5">
+                    <div class="row">
+                      <!--左-->
+                      <div class="col-sm-3 align-self-center justify-content-center">
+                        <div class="row">
+                          <!-- <h5 class="fw-bolder align-items-center question">03-2 評價填寫</h5> -->
+                        </div>
+                      </div>
+                      <!--右-->
+                      <div class="col-sm-9 align-self-center justify-content-center">
+                        <div class="row mt-2">
+                          <!--考試方式與內容-->
+                          <div class="col-12">
+                            <div class="mb-3">
+                              <h6>
+                                <label for="formGroupExampleInput" class="form-label">考試方式與內容 &thinsp; </label>
+                                <i class="bi bi-info-circle-fill info-icon" data-toggle="tooltip"
+                                  data-bs-placement="right" title="無、選擇簡答、申論；教科書、上課筆記、題庫">
+                                </i>
+                                <p class="exam error-right" style="color: #D82424;"></p>
+                              </h6>
+                              <textarea id="exam" type="text" class="form-control input" rows="2" required></textarea>
+                            </div>
+                          </div>
+                          <!--收穫-->
+                          <div class="col-12">
+                            <div class="mb-3">
+                              <h6>
+                                <label for="formGroupExampleInput" class="form-label">收穫 &thinsp; </label>
+                                <i class="bi bi-info-circle-fill info-icon" data-toggle="tooltip"
+                                  data-bs-placement="right" title="你覺得老師上的內容搭配上的方式好吸收嗎？學到的東西是太簡單國高中程度/過難，還是很充實？">
+                                </i>
+                                <p class="gain error-right" style="color: #D82424;"></p>
+                              </h6>
+                              <textarea id="gain" type="text" class="form-control input" rows="2" required></textarea>
+                            </div>
+                          </div>
+                          <!--加簽方式-->
+                          <div class="col-12">
+                            <div class="mb-3">
+                              <h6>
+                                <label for="formGroupExampleInput" class="form-label">(選填)加簽方式 &thinsp; </label>
+                                <i class="bi bi-info-circle-fill info-icon" data-toggle="tooltip"
+                                  data-bs-placement="right" title="給不給加簽？加簽方式？大四優先？一律抽籤？">
+                                </i>
+                              </h6>
+                              <input id="signup" type="text" class="form-control input" autocomplete="off">
+                            </div>
+                          </div>
+                          <!--想對他系的同學說-->
+                          <div class="col-12 departmentinput">
+                            <div class="mb-3">
+                              <h6>
+                                <label for="formGroupExampleInput" class="form-label">想對有興趣的外系同學說 &thinsp; </label>
+                                <i class="bi bi-info-circle-fill info-icon" data-toggle="tooltip"
+                                  data-bs-placement="right" title="需要有哪方面的基礎才建議修習？還是需要有哪些心態與態度呢？特別要注意些什麼？">
+                                </i>
+                                <p class="talk error-right" style="color: #D82424;"></p>
+                              </h6>
+                              <textarea id="talk" type="text" class="form-control input" rows="2" required></textarea>
+                            </div>
+                          </div>
+                          <!--其他-->
+                          <div class="col-12">
+                            <div>
+                              <h6>
+                                <label for="formGroupExampleInput" class="form-label">其他意見</label>
+                                <i class="bi bi-info-circle-fill info-icon" data-toggle="tooltip"
+                                  data-bs-placement="right" title="這裡可以說說其他想補充的話或是忠告~
+                                也能說說上課遇到活潑有趣/可怕/印象深刻的事 
+                                e.g.老師會講課程大綱講到哭、老師會請全班喝全糖飲料、老師會講鬼故事等（？">
+                                </i>
+                                <p class="opinion error-right" style="color: #D82424;"></p>
+                              </h6>
+                              <textarea id="opinion" type="text" class="form-control input" rows="2"
+                                required></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--評價填寫 end-->
+
+                <!--推薦程度 section-->
+                <section id="classRecommend" class="cta grey-bg">
+                  <div class="container px-lg-5">
+                    <div class="row">
+                      <!--左-->
+                      <div class="col-sm-3 align-self-center justify-content-center">
+                        <div class="row">
+                          <h5 class="fw-bolder align-items-center question">04 推薦程度</h5>
+                        </div>
+                      </div>
+                      <!--右-->
+                      <div class="col-sm-9 align-self-center justify-content-center">
+                        <div class="row mt-2">
+                          <div class="col-sm-2">
+                            <h6 class="fw-bolder">非常不推</h6>
+                          </div>
+                          <div class="col-sm-2">
+                            <div class="form-check">
+                              <h6>
+                                <input id="one" class="form-check-input" type="radio" name="recommend" value="1">
+                                <label class="form-check-label" for="one">1</label>
+                              </h6>
+                            </div>
+                          </div>
+                          <div class="col-sm-2">
+                            <div class="form-check">
+                              <h6>
+                                <input id="two" class="form-check-input" type="radio" name="recommend" value="2">
+                                <label class="form-check-label" for="two">2</label>
+                              </h6>
+                            </div>
+                          </div>
+                          <div class="col-sm-2">
+                            <div class="form-check">
+                              <h6>
+                                <input id="three" class="form-check-input" type="radio" name="recommend" value="3">
+                                <label class="form-check-label" for="three">3</label>
+                              </h6>
+                            </div>
+                          </div>
+                          <div class="col-sm-2">
+                            <div class="form-check">
+                              <h6>
+                                <input id="four" class="form-check-input" type="radio" name="recommend" value="4">
+                                <label class="form-check-label" for="four">4</label>
+                              </h6>
+                            </div>
+                          </div>
+                          <div class="col-sm-2">
+                            <h6 class="fw-bolder">非常推薦</h6>
+                          </div>
+                          <p class="recommend error-bottom" style="color: #D82424;"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--推薦程度 end-->
+
+                <!--投稿者資訊 section-->
+                <section id="who" class="cta white-bg">
+                  <div class="container px-lg-5">
+                    <div class="row">
+                      <!--左-->
+                      <div class="col-sm-3 align-self-center justify-content-center">
+                        <div class="row">
+                          <h5 class="fw-bolder align-items-center question">05 投稿者資訊
+                          </h5>
+                        </div>
+                      </div>
+                      <!--右-->
+                      <div class="col-sm-9 align-self-center justify-content-center">
+                        <div class="row mt-2">
+                          <div class="col-12">
+                            <div>
+                              <h6 class="fw-bolder">請填入姓名或筆名（將顯示於評價最後一行）</h6>
+                              <div class="form-check mt-3">
+                                <input id="anonymousno" class="form-check-input" type="radio" name="anonymous" checked>
+                                <label class="form-check-label" for="anonymousno">我要匿名</label>
+                              </div>
+                              <div class="form-check mt-3">
+                                <input id="inputname" class="mt-2 form-check-input" type="radio" name="anonymous"
+                                  value="name">
+                                <label class="form-check-label" for="inputname">
+                                  <input id="name" type="text" class="form-control input inputname" name="inputname"
+                                    placeholder="輸入姓名">
+                                </label>
+                              </div>
+                              <p class="inputname error-bottom" style="color: #D82424;"></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </section>
+                <!--投稿者資訊 end-->
+
+                <!--抽獎 section-->
+                <section id="prize" class="cta grey-bg">
+                  <div class="container px-lg-5">
+                    <div class="row">
+                      <!--左-->
+                      <div class="col-sm-3 align-self-center justify-content-center">
+                        <div class="row">
+                          <h5 class="fw-bolder align-items-center question">06 來抽獎囉</h5>
+                        </div>
+                      </div>
+                      <!--右-->
+                      <div class="col-sm-9 align-self-center justify-content-center">
+                        <div class="row mt-2">
+                          <div class="col-12">
+                            <div>
+                              <h6 class="fw-bolder">是否參加抽獎？</h6>
+                              <h6>彰師小生物感謝同學們熱烈支持~~趕快來參加抽獎吧！</h6>
+                              <div class="form-check mt-3">
+                                <input class="form-check-input" type="radio" name="lottery" id="lotteryYes" value="yes">
+                                <label class="form-check-label" for="lotteryYes">是</label>
+                              </div>
+                              <!--輸入學號-->
+                              <div class="lotteryInfo mt-3"
+                                style="background: #ffffff; background-size : cover; padding: 10px;">
+                                <h6 class="fw-bolder">抽獎資訊</h6>
+                                <ul style="list-style-type: decimal;">
+                                  <li>每填寫一堂課程即獲得一次抽獎機會，可無限填寫與累計！</li>
+                                  <li>在這一頁你填寫的個人資料將只用於抽獎活動，彰師小生物不會以任何形式公開透漏出你寫了什麼評價。</li>
+                                  <li>獎項：7-11 100元商品卡
+                                    <ul style="list-style-type: disc;">
+                                      <li>優良正向評價 1名</li>
+                                      <li>優良負面評價 1名</li>
+                                      <li>最多投稿者 第一~三名 各1名</li>
+                                      <li>隨機抽1名</li>
+                                    </ul>
+                                  </li>
+                                  <li>抽獎活動時間為:即日起至111/03/05（23:59）止。</li>
+                                </ul>
+                                <span>預計111/03 中旬前 開獎，於NCUE校版與小生物粉專IG公布。</span>
+                                <h6 class="mt-3">學號</h6>
+                                <input type="text" class="form-control input" id="formGroupExampleInput"
+                                  placeholder="輸入學號（大寫）" disabled="disabled">
+                                <h6 class="mt-3">email</h6>
+                                <input type="text" class="form-control" id="formGroupExampleInput" disabled="disabled">
+                              </div>
+                              <!--輸入學號 End-->
+                              <div class="form-check mt-3">
+                                <input class="form-check-input input" type="radio" name="lottery" id="lotteryNo"
+                                  value="no" checked>
+                                <label class="form-check-label" for="lotteryNo">否</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!--抽獎 end-->
+              </div>
+            </div>
+
+            <!--上一頁 & 確認送出-->
+            <div class="row d-flex justify-content-center">
+              <div class="col-10">
+                <ul style="padding-left: 0px;">
+                  <li class="btn mt-2 mb-2 float-end">
+                    <h5><button id="submit" type="button" class="btn go-btn" data-bs-toggle="modal">確認送出</button></h5>
+                  </li>
+                  <li class="btn mt-2 mb-2 float-end">
+                    <h5>
+                      <button id="Previousto1" type="button" class="btn page-btn">
+                        上一頁
+                      </button>
+                    </h5>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+    </div>
+    <!--after enter the form END-->
+
+    <!-- Modal -->
+    <div class="form_correct modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="btn-close btn-shadow float-end" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+            <h5 class="mt-4 mb-3 fw-bolder d-flex justify-content-center align-content-center">本次新增的評價為</h5>
+            <h6 class="type pt-2 pb-2 d-flex justify-content-center align-content-center"
+              style="background-color: #FFF6CD"><br></h6>
+            <h6 class="department"></h6>
+            <h6 class="teacher-class pt-2 pb-2 d-flex justify-content-center align-content-center"
+              style="background-color: #DDFAD8"><br></h6>
+            <h6 class="semester pt-2 pb-2 d-flex justify-content-center align-content-center"
+              style="background-color: #F9E2D1"><br></h6>
+            <h6 class="score pt-2 pb-2 d-flex justify-content-center align-content-center"
+              style="background-color: #D4F2F5"><br></h6>
+            <h6 class="mt-4 d-flex justify-content-center align-content-center">確認無誤後請按確定送出！</h6>
+            <h6 class="d-flex justify-content-center align-content-center">投稿後待小生物夥伴後台確認後，就會上架囉！</h6>
+            <div class="d-flex justify-content-center align-content-center">
+              <button id="modal-back" type="button" class="btn modal-leftbtn mt-2 mb-1 mx-2 float-center"
+                data-bs-dismiss="modal" href="">返回修改</button>
+              <button id="modal-submit" type="button" class="btn modal-rightbtn mt-2 mb-1 float-center"
+                onclick="submit()" href="">確定送出</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form_error modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="btn-close btn-shadow float-end" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+            <h5 class="mt-4 fw-bolder d-flex justify-content-center align-content-center orange-word">輸入資訊有誤<h5>
+                <img id="form_error" class="mt-4 img-fluid d-block mx-auto w-50"
+                  src="/static/assets_home/img/illustrations/form_error.png">
+                <h6 class="mt-4 mb-3 d-flex justify-content-center align-content-center">請確認所有欄位都填妥，<br>且評價內容達一定字數。<h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form_submit modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="btn-close btn-shadow float-end" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+            <h5 class="mt-4 mb-3 fw-bolder d-flex justify-content-center align-content-center orange-word">成功送出<h5>
+                <img class="img-fluid d-block mx-auto w-50" src="/static/assets_home/img/illustrations/form_submit.png">
+                <h6 class="mt-3 d-flex justify-content-center align-content-center">小生物感謝你的餵食！</h6>
+                <div class="d-flex justify-content-center align-content-center">
+                  <button type="button" class="btn modal-leftbtn mt-2 mb-1 float-center" href="">繼續投稿</button>
+                  <button type="button" class="btn modal-rightbtn mt-2 mb-1 mx-2 float-center" href="">回首頁</button>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Feedback Section ======= -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container footer-bottom clearfix">
+      <div id="copyright" class="copyright">
+        <b><span>彰師小生物&trade; 2017-2022</span></b>
+      </div>
+
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/enno-free-simple-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a><br>
+        &copy; <span>eNno</span>. All Rights Reserved
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/static/new/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/new/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/static/new/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/static/new/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/static/new/assets/vendor/purecounter/purecounter.js"></script>
+  <script src="/static/new/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/static/new/assets/js/main.js"></script>
+  <script src="/static/assets/dist/js/search.js"></script>
+
+
+  <script>
+    //錯誤訊息
+    var first_page = ["#teacher", "#class"]
+    var second_page = ["method", "content", "call", "points", "exam", "gain", "opinion", "talk"]
+    //為了不用一直重整頁面
+    $(document).ready(function () {
+      for (let index = 0; index < second_page.length - 1; index++) {
+        const element = second_page[index];
+        var dot = "#".concat(element);
+        $(dot).val("X")
+      }
+      for (let index = 0; index < first_page.length; index++) {
+        const element = first_page[index];
+        $(element.concat("Name")).val(element)
+      }
+      $("#afterEnter").hide();
+      $("#enterform-btn").click(function () {
+        $("#beforeEnter").hide();
+        $("#afterEnter").show();
+        $("#enterImg").show();
+        $("#intro").show();
+        $("#page1").show();
+        $("#page2").hide();
+      });
+      $("#PrevioustoEnter").click(function () {
+        $("#beforeEnter").show();
+        $("#afterEnter").hide();
+        $("#enterImg").hide();
+        $("#intro").show();
+        $("#page2").hide();
+        $("#page1").hide();
+      });
+      $("#Next").click(function () {
+        $("#beforeEnter").hide();
+        $("#afterEnter").show();
+        $("#enterImg").hide();
+        $("#intro").hide();
+        $("#page1").hide();
+        $("#page2").show();
+      });
+      $("#Previousto1").click(function () {
+        $("#beforeEnter").hide();
+        $("#afterEnter").show();
+        $("#enterImg").show();
+        $("#intro").show();
+        $("#page2").hide();
+        $("#page1").show();
+      });
+    });
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    //選填系上課程，跳想對其他系的同學說
+    $(document).on('click', 'input[type="checkbox"]', function () {
+      $('input[type="checkbox"]').not(this).prop('checked', false);
+      $(".departmentinput").hide();
+      $("#inputdepartment").hide();
+    });
+    $(function () {
+      $(".departmentinput").hide();
+      $("#inputdepartment").hide();
+      $('[name="evaluation"][value="系上課程"]').on("change", function () {
+        if ($(this).is(":checked")) {
+          $(".departmentinput").show();
+        }
+        else {
+          $(".departmentinput").hide();
+        }
+      })
+    })
+
+    //科系下拉式選單
+    var colleges = ['教育學院', '理學院', '技術及職業教育學院', '文學院', '工學院', '管理學院', '社會科學暨體育學院', '其他(學分學程/復大學/歷大學/研究所)'];
+    var collegeSelect = document.getElementById("college-list");
+    var inner = "";
+    for (var i = 0; i < colleges.length; i++) {
+      inner = inner + '<option value=i>' + colleges[i] + '</option>';
+    }
+    collegeSelect.innerHTML = inner;
+
+    var sectors = new Array();
+    sectors[0] = ['教育學院', '輔諮系', '特教系'];
+    sectors[1] = ['理學院', '數學系', '物理學系', '生物學系', '化學系'];
+    sectors[2] = ['工業教育與技術學系'];
+    sectors[3] = ['英語學系', '國文系', '地理學系', '美術學系'];
+    sectors[4] = ['機電工程學系', '電機工程學系', '電子工程學系', '資訊工程學系']
+    sectors[5] = ['資訊管理學系', '會計學系', '企業管理學系', '財務金融技術學系'];
+    sectors[6] = ['運動學系', '公共事務與公民學系'];
+    sectors[7] = [];
+
+    var flag = 0; //判斷是否是其他，如果是其他自行輸入
+    function changeCollege(index) {
+      var Sinner = "";
+      for (var i = 0; i < sectors[index].length; i++) {
+        Sinner = Sinner + '<option value=i>' + sectors[index][i] + '</option>';
+      }
+      var sectorSelect = document.getElementById("sector-list");
+      sectorSelect.innerHTML = Sinner;
+      var other = document.getElementById("college-list").selectedIndex;
+      if (other == '7') {
+        flag = 1;
+        $("#sector-list").hide();
+        $(".inputdepartment").html("請輸入開課別");
+        $("#inputdepartment").show();
+      }
+      else {
+        flag = 0;
+        $("#sector-list").show();
+        $(".inputdepartment").html("請選擇開課別");
+        $("#inputdepartment").hide();
+      }
+    }
+    changeCollege(document.getElementById("college-list").selectedIndex);
+
+    //浮動按鈕
+    $(document).ready(function (event) {
+      $(".float-menu").hide();
+      $(".float-btn").click(function () {
+        $(".float-menu").toggle(500);
+      });
+    });
+
+    $('#float').click(function () {
+      $(".float-menu").slideDown();
+    });
+    //按空白處可以收回OHYA
+    $(document).click(function (event) {
+      let type = $("#c-type");
+      let info = $("#c-info");
+      let evaluation = $("#c-evaluation");
+      let recommend = $("#c-recommend");
+      let who = $("#c-who");
+      let prize = $("#c-prize");
+      if (!type.is(event.target) && !info.is(event.target) && !evaluation.is(event.target) && !recommend.is(event.target)
+        && !who.is(event.target) && !prize.is(event.target)) {
+        $(".float-menu").hide();
+      }
+    });
+
+    //浮動按鈕的跳轉
+    const float_button_p1 = { '#c-type': '#classType', '#c-info': '#classInfo' }
+    $(function () {
+      for (const [key, value] of Object.entries(float_button_p1)) {
+        $(key).click(function () {
+          $("#page2").hide();
+          $("#page1").show();
+          $('html,body').animate({ scrollTop: $(value).offset().top - 100 }, 100);
+        })
+      }
+    })
+    const float_button_p2 = { '#c-evaluation': '#classEvaluation', '#c-recommend': '#classRecommend', '#c-who': '#who', '#c-prize': '#prize' }
+    $(function () {
+      for (const [key, value] of Object.entries(float_button_p2)) {
+        console.log(key, value);
+        $(key).click(function () {
+          $("#page1").hide();
+          $("#page2").show();
+          $('html,body').animate({ scrollTop: $(value).offset().top - 100 }, 100);
+        })
+      }
+    });
+
+    /*投稿者資訊勾匿名input=disable*/
+    $('#anonymousno').click(function () {
+      $(".inputname").attr("disabled", true);
+      $('input[name="inputname"]').val('');
+    });
+    $('#inputname').click(function () {
+      $(".inputname").attr("disabled", false);
+    });
+
+    /*抽獎是的按鈕*/
+    $(".lotteryInfo").hide();
+    $(function () {
+      $('input[type=radio][name=lottery]').change(function () {
+        if (this.value == 'yes') {
+          $(".lotteryInfo").show();
+        }
+        else if (this.value == 'no') {
+          $(".lotteryInfo").hide();
+        }
+      });
+    });
+
+    function validate() {
+      var v = true;
+      //評價類型
+      if ($('input[name="evaluation"]:checked').length < 1) {
+        $("#type").text("請選擇一項");
+        v = false;
+      }
+      else {
+        $("#type").text("");
+      }
+
+      //老師/課程名必填
+      for (let index = 0; index < first_page.length; index++) {
+        const element = first_page[index];
+        if ($(element.concat("Name")).val().length == 0) {
+          $(element).text("此欄位為必填");
+          v = false;
+        }
+        else {
+          if (index == 0) {
+            if ($(element.concat("Name")).val().indexOf(" ") != -1 || $(element.concat("Name")).val().length > 9) {
+              $(element).html("<br>若兩位老師請接續不空格；三位以上請直接打【合開】即可（含括號）");
+              v = false;
+            }
+            else {
+              $(element).html("");
+            }
+          }
+          else {
+            $(element).text("");
+          }
+        }
+      }
+
+      //評價部分
+      var total_words = 0;
+      for (let index = 0; index < second_page.length - 1; index++) {
+        const element = second_page[index];
+        var dot = ".".concat(element); //必填error
+        var sharp = "#".concat(element); //抓內容
+        var word = $(sharp).val().length; //抓內容算字數
+        if (word == 0) {
+          $(dot).text("此欄位為必填");
+          v = false;
+        }
+        else {
+          $(dot).text("");
+        }
+        total_words += word;
+      }
+      //類型=系上課程->想對外系同學說
+      if ($('[name="evaluation"][value="系上課程"]').is(":checked")) {
+        var talkword = $("#".concat(second_page[second_page.length - 1])).val().length;
+        if (talkword == 0) {
+          $(".".concat(second_page[second_page.length - 1])).text("此欄位為必填");
+          v = false;
+        }
+        else {
+          $(".".concat(second_page[second_page.length - 1])).text("");
+        }
+      }
+      //評價部分總字數<190
+      if (total_words < 1) {
+        $(".words").text("太少囉，再多打一點麻！");
+        v = false;
+      }
+      else {
+        $(".words").text("");
+      }
+
+      //推薦程度/匿名/抽獎
+      if (!$('input[name="recommend"]').is(":checked")) {
+        $(".recommend").text("請選擇一項");
+        v = false;
+      }
+      else {
+        $(".recommend").text("");
+      }
+      if ($('[name="anonymous"][value="name"]').is(":checked")) {
+        if ($("#name").val() == 0) {
+          $(".inputname").text("請填入筆名");
+          v = false;
+        }
+        else {
+          $(".inputname").text("");
+        }
+      }
+      //其他自填開課別
+      if (flag == 1 && $("#inputdepartment").val().length == 0) {
+        $("#otherdepartment").text("此欄位為必填");
+        v = false;
+      }
+      else {
+        $("#otherdepartment").text("");
+      }
+
+      return v;
+    }
+    /*確認送出*/
+    $("#submit").click(function () {
+      if (validate(true)) {
+        var type = $('input[name="evaluation"]:checked').val();
+        var inputdepartment = $("#inputdepartment").val();
+        var department = $("#sector-list :selected").html();
+        var teacher = $("#teacherName").val();
+        var classN = $("#className").val();
+        var semester = $("#semester :selected").html().substr(0, 5);
+        var recommend = $('input[name="recommend"]:checked').val();
+
+        $(".form_correct").modal("show");
+        $(".form_error").modal("hide");
+        $(".type").text(type);
+        if ($('input[name="evaluation"]:checked').val() == "系上課程") {
+          if (flag == 1)
+            $(".department").append('<h6 class="pt-2 pb-2 d-flex justify-content-center align-content-center" style="background-color: #F1E3C8">' + inputdepartment + '<br></h6>');
+          else
+            $(".department").append('<h6 class="pt-2 pb-2 d-flex justify-content-center align-content-center" style="background-color: #F1E3C8">' + department + '<br></h6>');
+        }
+        $(".teacher-class").text(teacher + '-' + classN);
+        $(".semester").text(semester + ' 學期');
+        $(".score").text('推薦度 ' + recommend);
+      }
+      else {
+        $(".form_error").modal("show");
+      }
+    });
+
+
+    /*modal*/
+    function submit() {
+      $(".form_submit").modal("show");
+      $(".form_correct").modal("hide");
+    }
+
+  </script>
+
+</body>
+
+</html>

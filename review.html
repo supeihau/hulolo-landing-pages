@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="google-site-verification" content="ggdBtjl8OK2lsw0IeLMF2tQJnuvLqXydbnAp_915N0M" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <title>評價審核 - NCUEHULOLO</title>
+    <meta property="og:image" content="https://ncuehulolo.idv.tw/static/assets/brand/og_hulolo.png">
+    <meta property="og:description" content="彰師最佳選課小幫手！">
+    <meta name="description" content="由學生設站並提供彰師大課程評價查詢與投稿服務，讓學弟妹選課時更清楚課程能帶來的收穫，達到學生與教師間修課品質的良性循環。">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="/static/new/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/new/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/static/new/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/static/new/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/static/new/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="/static/new/assets/css/style.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T333L4QQGV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-T333L4QQGV');
+    </script>
+    <!-- =======================================================
+    * Template Name: eNno - v4.6.0
+    * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+    <style>
+        p {
+            margin-bottom: 0px;
+        }
+
+        #bg-box {
+            background-color: #fff;
+        }
+
+        #greyline {
+            background-color: #F5F5F5;
+            padding-top: 5px;
+        }
+
+        .label {
+            float: left;
+        }
+
+        .span {
+            display: block;
+            overflow: hidden;
+        }
+
+        hr {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .form-control:focus {
+            box-shadow: none;
+            border: #888888 1px solid;
+        }
+
+        .text {
+            font-size: 12px;
+            color: #f2971b;
+            margin-bottom: 0px;
+        }
+
+        .btn:focus {
+            box-shadow: none;
+        }
+
+        .copy-btn {
+            background-color: #41A0AA;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .copy-btn:hover {
+            background-color: #41A0AA;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+            box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+        }
+
+        .delete-btn {
+            background-color: #f2971b;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .delete-btn:hover {
+            background-color: #f2971b;
+            color: #fff;
+            border-radius: 5px;
+            padding: 540;
+            padding-left: 40px;
+            padding-right: 40px;
+            box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+        }
+
+        .pass-btn {
+            background-color: #29794B;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .pass-btn:hover {
+            background-color: #29794B;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+            box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+        }
+
+        .edit-btn {
+            background-color: #A0C87F;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .edit-btn:hover {
+            background-color: #A0C87F;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+            box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+        }
+
+        .tc-name {
+            color: #000;
+        }
+
+        #no-record-word {
+            background-color: #E9E9E9;
+            color: #888888;
+            width: 250px;
+            border-radius: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 0px;
+            padding-left: 0px;
+            text-align: center;
+        }
+
+        #pass-general {
+            background-color: #F0C29E;
+            border-radius: 10px;
+        }
+
+        .general-color {
+            color: #A90303;
+        }
+
+        #pass-department {
+            background-color: #F5C678;
+            border-radius: 10px;
+        }
+
+        .department-color {
+            color: #754900;
+        }
+
+        #pass-education {
+            background-color: #91D9C3;
+            border-radius: 10px;
+        }
+
+        .education-color {
+            color: #00593E;
+        }
+
+        #pass-english {
+            background-color: #A0DE95;
+            border-radius: 10px;
+        }
+
+        .english-color {
+            color: #0E5E00;
+        }
+
+        #pass-PEclass2 {
+            background-color: #DEC492;
+            border-radius: 10px;
+        }
+
+        #pass-PEclass3 {
+            background-color: #DEC492;
+            border-radius: 10px;
+        }
+
+        .PEclass-color {
+            color: #382500;
+            ;
+        }
+
+        #pass-military {
+            background-color: #EBD464;
+            border-radius: 10px;
+        }
+
+        .military-color {
+            color: #5B4C00;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+
+        .wait {
+            background-color: #e6e6e6;
+            border-radius: 10px;
+        }
+
+        .wait-scroll {
+            height: 235px;
+            margin: 0px auto;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+
+        .scroll {
+            height: 250px;
+            overflow: auto;
+            margin: 0px auto;
+        }
+
+
+        @media screen and (max-width:992px) {
+            .copy-btn {
+                background-color: #41A0AA;
+                color: #fff;
+                border-radius: 5px;
+                width: 100%;
+                display: block;
+            }
+
+            .delete-btn {
+                background-color: #f2971b;
+                color: #fff;
+                border-radius: 5px;
+                width: 100%;
+                display: block;
+            }
+
+            .pass-btn {
+                background-color: #29794B;
+                color: #fff;
+                border-radius: 5px;
+                width: 100%;
+                display: block;
+            }
+
+            .edit-btn {
+                background-color: #A0C87F;
+                color: #fff;
+                border-radius: 5px;
+                width: 100%;
+                display: block;
+            }
+        }
+
+        @media screen and (min-width:992px) {
+            .form-control {
+                max-width: 210px;
+            }
+
+            #content {
+                max-width: 100%;
+            }
+
+            .after_modal_appended {
+                position: relative;
+            }
+
+            .modal,
+            .modal-backdrop {
+                position: absolute !important;
+            }
+        }
+
+        @media screen and (min-width:1200px) {
+            .form-control {
+                margin-left: 20px;
+                max-width: 250px;
+            }
+
+            #content {
+                max-width: 100%;
+            }
+
+            .after_modal_appended {
+                position: relative;
+            }
+
+            .modal,
+            .modal-backdrop {
+                position: absolute !important;
+            }
+
+            .scroll {
+                height: 200px;
+                overflow: auto;
+                margin: 0px auto;
+            }
+        }
+
+        @media screen and (min-width:1400px) {
+            #content {
+                max-width: 95%;
+            }
+        }
+
+        .modal-content {
+            border-radius: 20px;
+        }
+
+        .modal-body {
+            background-color: #e9e9e9;
+            border-radius: 20px;
+
+        }
+
+        .modal-backdrop {
+            background-color: #FFFFFF;
+        }
+
+        .modal-backdrop.in {
+            /*no react*/
+            opacity: 0.9;
+        }
+
+        .modalBtn-delete {
+            background-color: #29794B;
+            color: #fff;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .modalBtn-delete:hover {
+            background-color: #29794B;
+            color: #fff;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+        }
+
+        .modalBtn-back {
+            background-color: #F2971B;
+            color: #fff;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .modalBtn-back:hover {
+            background-color: #F2971B;
+            color: #fff;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+        }
+
+        .modalBtn-enter {
+            background-color: #29794B;
+            color: #fff;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .modalBtn-enter:hover {
+            background-color: #29794B;
+            color: #fff;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            box-shadow: 3px 3px rgba(201, 201, 201, 0.5);
+        }
+    </style>
+</head>
+
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <h1 class="logo"><a href="/">
+                    <img src="/static/assets/brand/HULOLO.png" class="img-fluid animated" alt="">
+                    <img src="/static/assets/brand/HULOLO_page.png" style="position:relative;top:-6px"
+                        class="img-fluid animated" alt="">
+                </a></h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="/search">查詢評價</a></li>
+                    <li class="dropdown"><a href="#"><span>評價燈號狀態</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="/department">各系課程</a></li>
+                            <li><a href="/general">通識課程</a></li>
+                            <li><a href="/general/education">教育學程</a></li>
+                            <li><a href="/general/language">精進中、英外文</a></li>
+                            <li><a href="/general/pe">大二、大三四體育</a></li>
+                            <li><a href="/general/military">軍訓</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>生物學系專區</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="/biology">系各年級課程燈號</a></li>
+                            <li><a href="/biology/activity">系活動行事曆</a></li>
+                            <li><a href="/biology/album">系活動照片與影片</a></li>
+                            <li><a href="/biology/previous_exam">系歷年考古題</a></li>
+                            <li><a href="/biology/signin">系學會幹部登入管理</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a class="nav-link scrollto" href="/form">評價投稿</a></li>
+                    <li><a class="nav-link scrollto" href="/subscribe">訂閱方案</a></li>
+                    <li class="dropdown"><a href="#"><span>關於小生物</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="/QA">問題建議</a></li>
+                            <li><a href="/partners">團隊夥伴</a></li>
+                            <li><a href="/recruitment">招募資訊 🍭</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a class="getstarted scrollto" href="/accounts/line/login/">登入</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+    <main id="main mt-4">
+        <div id="bg-box">
+            <div id="greyline">
+                <br><br><br><br>
+            </div>
+
+            <div class="container">
+                <!--password-->
+                <div id="passwordModal" class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-md">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <h6 class="mt-2 d-flex justify-content-center align-self-center">
+                                    <label for="password"
+                                        class="d-flex justify-content-center align-self-center label">輸入密碼：</label>
+                                    <span>
+                                        <input id="password" name="test" type="password" class="form-control"
+                                            value="" />
+                                    </span>
+                                </h6>
+
+                                <div class="mt-3 float-end">
+                                    <button type="button" class="btn modalBtn-back" href="">返回</button>
+                                    <button type="button" class="ms-2 btn modalBtn-enter"
+                                        data-bs-dismiss="modal">進入</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex d-lg-block">
+                    <!--等待審核Start-->
+                    <div class="col-lg-4 float-start">
+                        <div class="mt-4">
+                            <h5 onclick="waitToggle()" style="display: inline;">等待審核 </h5>
+                            <i onclick="waitToggle()" class="bi bi-caret-down-fill" style="display: inline;"></i>
+                        </div>
+                        <div id="wait-records" class="wait-scroll mt-2 mb-2 justify-content-center align-slef-center">
+                            <div id="wait-general" class="row mx-1 mb-3 justify-content-center align-slef-center wait">
+                                <div class="m-2 ms-5 d-flex justify-content-start align-slef-start">
+                                    <div>
+                                        <u class="fw-bolder"><a class="general-color" href="">19</a></u>
+                                        <span class="ms-3 fw-bolder general-color">通識</span><br>
+                                        <span class="d-inline-block">吳明德</span>
+                                        <span class="d-inline-block ms-1">台灣布袋戲的藝術與欣賞</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="wait-department"
+                                class="row mx-1 mb-3 justify-content-center align-slef-center wait">
+                                <div class="m-2 ms-5 d-flex justify-content-start align-slef-start">
+                                    <div>
+                                        <u class="fw-bolder"><a class="department-color" href="">20</a></u>
+                                        <span class="ms-3 fw-bolder department-color">其他系課程</span><br>
+                                        <span class="d-inline-block mt-1">企管</span>
+                                        <span class="d-inline-block mt-1 ms-1">阮家慶</span>
+                                        <span class="d-inline-block mt-1 ms-1">文字探勘與機器人實作專題</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="wait-education"
+                                class="row mx-1 mb-3 justify-content-center align-slef-center wait">
+                                <div class="m-2 ms-5 d-flex justify-content-start align-slef-start">
+                                    <div>
+                                        <u class="fw-bolder"><a class="education-color" href="">21</a></u>
+                                        <span class="ms-3 fw-bolder education-color">教程</span><br>
+                                        <span class="d-inline-block">吳明德</span>
+                                        <span class="d-inline-block ms-1">台灣布袋戲的藝術與欣賞</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="wait-english" class="row mx-1 mb-3 justify-content-center align-slef-center wait">
+                                <div class="m-2 ms-5 d-flex justify-content-start align-slef-start">
+                                    <div>
+                                        <u class="fw-bolder"><a class="english-color" href="">22</a></u>
+                                        <span class="ms-3 fw-bolder english-color">精進中、英外文</span><br>
+                                        <span class="d-inline-block">吳明德</span>
+                                        <span class="d-inline-block ms-1">台灣布袋戲的藝術與欣賞</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="wait-PEclass2" class="row mx-1 mb-3 justify-content-center align-slef-center wait">
+                                <div class="m-2 ms-5 d-flex justify-content-start align-slef-start">
+                                    <div>
+                                        <u class="fw-bolder"><a class="PEclass-color" href="">23</a></u>
+                                        <span class="ms-3 fw-bolder PEclass-color">大二體育</span><br>
+                                        <span class="d-inline-block">吳明德</span>
+                                        <span class="d-inline-block ms-1">台灣布袋戲的藝術與欣賞</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="wait-PEclass3" class="row mx-1 mb-3 justify-content-center align-slef-center wait">
+                                <div class="m-2 ms-5 d-flex justify-content-start align-slef-start">
+                                    <div>
+                                        <u class="fw-bolder"><a class="PEclass-color" href="">24</a></u>
+                                        <span class="ms-3 fw-bolder PEclass-color">大三、四體育</span><br>
+                                        <span class="d-inline-block">吳明德</span>
+                                        <span class="d-inline-block ms-1">台灣布袋戲的藝術與欣賞</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="wait-military" class="row mx-1 mb-3 justify-content-center align-slef-center wait">
+                                <div class="m-2 ms-5 d-flex justify-content-start align-slef-start">
+                                    <div>
+                                        <u class="fw-bolder"><a class="military-color" href="">23</a></u>
+                                        <span class="ms-3 fw-bolder military-color">軍訓</span><br>
+                                        <span class="d-inline-block">吳明德</span>
+                                        <span class="d-inline-block ms-1">台灣布袋戲的藝術與欣賞</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--等待審核End-->
+
+                    <!--評價審核Start-->
+                    <div id="right-side" class="col-lg-8 float-end">
+                        <div class="row mx-lg-1 mt-lg-3">
+                            <div class="col-lg-6 order-1">
+                                <h5 class="mt-2">
+                                    <span class="mt-2">審核課程評價</span>
+                                </h5>
+                            </div>
+                            <div class="col-lg-6 order-2 mb-xs-3 mb-lg-0 d-flex justify-content-lg-end">
+                                <button id="edit" type="button" class="btn edit-btn mt-2 mt-lg-0">修改</button>
+                                <!-- <div class="input-group" style="float: left;">
+                            <input id="id-search" type="text" class="form-control" placeholder="輸入評價編號" style="margin-left: 0px;">
+                            <div class="input-group-append">
+                              <button class="btn search" type="button"><i class="bi bi-search"></i></button>
+                            </div>
+                        </div>
+                        <p id="no-id" class="text">無此編號評價</p> -->
+                            </div>
+                        </div>
+
+                        <form id="form" class="mx-lg-3 mt-2">
+                            <!--id / 學期-->
+                            <div class="row mt-3">
+                                <div class="col-sm-6">
+                                    <h6>
+                                        <label for="id" class="fw-bolder mt-2 me-3 label">編號：</label>
+                                        <span class="span">
+                                            <input id="id" name="test" type="text" class="form-control" value="19"
+                                                disabled />
+                                        </span>
+                                    </h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h6>
+                                        <label for="semester" class="fw-bolder mt-2 me-3 label">學期：</label>
+                                        <span class="span">
+                                            <input id="semester" name="test" type="text" class="form-control"
+                                                value="110-1" disabled />
+                                        </span>
+                                    </h6>
+                                </div>
+                            </div>
+                            <hr>
+                            <!--類型/學系-->
+                            <div class="row mt-3">
+                                <div class="col-sm-6">
+                                    <h6>
+                                        <label for="type" class="fw-bolder mt-2 me-3 label">類型：</label>
+                                        <span class="span">
+                                            <input id="type" name="test" type="text" class="form-control" value="通識"
+                                                disabled />
+                                        </span>
+                                    </h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h6>
+                                        <label for="department" class="fw-bolder mt-2 me-3 label">學系：</label>
+                                        <span class="span">
+                                            <input id="department" name="test" type="text" class="form-control"
+                                                disabled />
+                                        </span>
+                                    </h6>
+                                    <p class="text">注意！只有性質選擇「其他課程」才需要填此欄</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <!--老師/課名-->
+                            <div class="row mt-3">
+                                <div class="col-sm-6">
+                                    <h6>
+                                        <label for="teacher" class="fw-bolder mt-2 me-3 label">老師：</label>
+                                        <span class="span">
+                                            <input id="teacher" name="test" type="text" class="form-control" value="李其澤"
+                                                disabled />
+                                        </span>
+                                    </h6>
+                                    <p class="text">確認老師名完全正確，超過一位順序以教務系統為主(不空格)</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h6>
+                                        <label for="class" class="fw-bolder mt-2 me-3 label">課名：</label>
+                                        <span class="span">
+                                            <input id="class" name="test" type="text" class="form-control"
+                                                value="國際政治與現勢" disabled />
+                                        </span>
+                                    </h6>
+                                    <p class="text">確認課名完全正確，不正確後台會搜不到就可以修正</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <!--內容-->
+                            <div class="row mt-3">
+                                <div class="col-sm-12">
+                                    <h6>
+                                        <label for="content" class="fw-bolder mt-2 me-3 mb-2 label">內容：</label>
+                                    </h6>
+                                    <textarea id="content" type="text" class="form-control mt-2 mb-1" rows="5" required
+                                        disabled
+                                        style="margin-left: 0px;">上課方式：
+                                老師有準備PPT，課本輔助用
+    
+                                上課內容：
+                                PPT內容+教檢考題
+                                
+                                點名頻率：
+                                線上每堂點，會掃QR code
+                                
+                                分數甜度/評分標準：
+                                還不錯，90up
+                                
+                                考試方式與內容：
+                                有小考及期中期末考，期中期末考有申論題（老師會給題庫，背起來可以100分）
+                                
+                                收穫：
+                                ㄜ...成績不錯，還聽到很多考古題
+                                
+                                加簽方式：
+                                要加簽應該都能選到
+                                
+                                其他意見：
+                                很認真上課卻聽不懂老師在講什麼...選這堂可能需要超乎常人的理解能力，個人不推（因為除了成績好沒學到任何東西）而且期中期末考申論題要盡量按照擬答去寫，用自己的話寫會被扣分..." </textarea>
+                                </div>
+                            </div>
+                            <hr>
+                            <!--推薦/投稿-->
+                            <div class="row mt-3">
+                                <div class="col-sm-6">
+                                    <h6>
+                                        <label for="recommend" class="fw-bolder mt-2 me-3 label">推薦：</label>
+                                        <span class="span">
+                                            <input id="recommend" name="test" type="text" class="form-control" value="4"
+                                                disabled />
+                                        </span>
+                                    </h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h6>
+                                        <label for="who" class="fw-bolder mt-2 me-3 label">投稿：</label>
+                                        <span class="span">
+                                            <input id="who" name="test" type="text" class="form-control" value="匿名"
+                                                disabled />
+                                        </span>
+                                    </h6>
+                                </div>
+                            </div>
+                            <hr>
+                            <!--btn-->
+                            <div class="row mt-3 mb-3">
+                                <div
+                                    class="col-sm-12 col-md-12 col-lg-6 mt-3 d-flex justify-content-center align-slef-center justify-content-md-start order-2 order-lg-1">
+                                    <button id="delete" type="button" class="btn delete-btn">刪除</button>
+                                </div>
+                                <div
+                                    class="col-sm-12 col-md-12 col-lg-6 mt-3 d-flex justify-content-center align-slef-center justify-content-md-end order-1 order-lg-2">
+                                    <button id="submit" type="button" class="btn pass-btn">通過</button>
+                                </div>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <h6 class="mt-3 d-flex justify-content-center align-self-center">
+                                                確認刪除編號：<span class="delete-id"></span> 的課程評價?</h6>
+                                            <div class="mt-3 float-end">
+                                                <button type="button" class="btn modalBtn-back"
+                                                    data-bs-dismiss="modal">返回</button>
+                                                <button type="button" class="ms-2 btn modalBtn-delete"
+                                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                                                    data-bs-dismiss="modal">刪除</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                                aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <h6 class="mt-3 d-flex justify-content-center align-self-center">已刪除編號：<span
+                                                    class="delete-id"></span> 的課程評價</h6>
+                                            <div class="mt-3 float-end">
+                                                <button type="button" class="btn modalBtn-back"
+                                                    data-bs-dismiss="modal">返回</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--評價審核End-->
+
+                    <!--審核通過Start-->
+                    <div class="col-lg-4 float-start">
+                        <div class="mt-3 mb-3">
+                            <h5 onclick="passToggle()" style="display: inline;">審核通過 </h5>
+                            <i onclick="passToggle()" class="bi bi-caret-down-fill" style="display: inline;"></i>
+                            <i onclick="" class="bi bi-stickies float-end" style="display: inline;"></i>
+                        </div>
+
+                        <div id="pass-records" class="mt-3 scroll justify-content-center align-slef-center">
+                            <div id="no-record" class="row mx-1 justify-content-center align-slef-center">
+                                <h6 id="no-record-word"
+                                    class="justify-content-center align-slef-center align-content-center">本次審核尚未產生紀錄
+                                </h6>
+                            </div>
+
+                            <div id="pass-general" class="row mx-1 mb-3 justify-content-center align-slef-center">
+                                <h6 class="mt-3 fw-bolder general-color">通識</h6>
+                                <div class="d-flex justify-content-start align-slef-start">
+                                    <div class="general-name mb-2 ms-3">
+                                        <!--每新增一則評價-->
+                                        <div>
+                                            <u class="fw-bolder"><a class="general-color" href="">16</a></u>
+                                            <span class="d-inline-block ms-2">吳明德</span>
+                                            <span class="d-inline-block ms-1">台灣布袋戲的藝術與欣賞</span>
+                                        </div>
+                                        <!--每新增一則評價-->
+                                        <div>
+                                            <u class="fw-bolder"><a class="general-color" href="">18</a></u>
+                                            <span class="d-inline-block ms-2">阮家慶</span>
+                                            <span class="d-inline-block ms-1">Python程式設計及應用</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="pass-department" class="row mx-1 mb-3 justify-content-center align-slef-center">
+                                <h6 class="mt-3 fw-bolder department-color">其他系課程</h6>
+                                <div class="d-flex justify-content-start align-slef-start">
+                                    <div class="department-name mb-2 ms-3">
+                                        <!--每新增一則評價-->
+                                        <div>
+                                            <u class="fw-bolder"><a class="department-color" href="">15</a></u>
+                                            <span class="d-inline-block mt-1 ms-2">企管</span>
+                                            <span class="d-inline-block mt-1 ms-1">阮家慶</span>
+                                            <span class="d-inline-block mt-1 ms-1">文字探勘與機器人實作專題</span>
+                                        </div>
+                                        <!--每新增一則評價-->
+                                        <div>
+                                            <u class="fw-bolder"><a class="department-color" href="">17</a></u>
+                                            <span class="d-inline-block mt-1 ms-2">企管</span>
+                                            <span class="d-inline-block mt-1 ms-1">阮家慶</span>
+                                            <span class="d-inline-block mt-1 ms-1">文字探勘與機器人實作專題</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pass-education" class="row mx-1 mb-3 justify-content-center align-slef-center">
+                                <h6 class="mt-3 fw-bolder education-color">教程</h6>
+                                <div class="d-flex justify-content-start align-slef-start">
+                                    <div class="education-name mb-2 ms-3">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pass-english" class="row mx-1 mb-3 justify-content-center align-slef-center">
+                                <h6 class="mt-3 fw-bolder english-color">精進中、英外文</h6>
+                                <div class="d-flex justify-content-start align-slef-start">
+                                    <div class="english-name mb-2 ms-3">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pass-PEclass2" class="row mx-1 mb-3 justify-content-center align-slef-center">
+                                <h6 class="mt-3 fw-bolder PEclass-color">大二體育</h6>
+                                <div class="d-flex justify-content-start align-slef-start">
+                                    <div class="PEclass2-name mb-2 ms-3">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pass-PEclass3" class="row mx-1 mb-3 justify-content-center align-slef-center">
+                                <h6 class="mt-3 fw-bolder PEclass-color">大三、四體育</h6>
+                                <div class="d-flex justify-content-start align-slef-start">
+                                    <div class="PEclass3-name mb-2 ms-3">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pass-military" class="row mx-1 mb-3 justify-content-center align-slef-center">
+                                <h6 class="mt-3 fw-bolder military-color">軍訓</h6>
+                                <div class="d-flex justify-content-start align-slef-start">
+                                    <div class="military-name mb-2 ms-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--審核通過End-->
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End #main -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="/static/new/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/new/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/static/new/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/static/new/assets/vendor/php-email-form/validate.js"></script>
+    <script src="/static/new/assets/vendor/purecounter/purecounter.js"></script>
+    <script src="/static/new/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/static/new/assets/js/main.js"></script>
+    <script src="/static/assets/dist/js/search.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#passwordModal").modal("show");
+            $("#no-id").hide();
+            $("#pass-general").hide();
+            $("#pass-department").hide();
+            $("#pass-education").hide();
+            $("#pass-english").hide();
+            $("#pass-PEclass2").hide();
+            $("#pass-PEclass3").hide();
+            $("#pass-military").hide();
+        });
+
+        $(".search").click(function () {
+            var idSearch = parseInt($("#id-search").val());
+            /*確認真的有這則評價編號，不能輸入string*/
+            if (isNaN(idSearch)) {
+                $("#no-id").show();
+            }
+            else {
+                $("#no-id").hide();
+                $("#id").val(idSearch);
+            }
+        })
+
+        $("#edit").click(function () {
+            $("#id").removeAttr("disabled");
+            $("#semester").removeAttr("disabled");
+            $("#type").removeAttr("disabled");
+            $("#department").removeAttr("disabled");
+            $("#teacher").removeAttr("disabled");
+            $("#class").removeAttr("disabled");
+            $("#content").removeAttr("disabled");
+            $("#recommend").removeAttr("disabled");
+            $("#who").removeAttr("disabled");
+        });
+
+        $("#submit").click(function () {
+            var Id = $("#id").val();
+            var Type = $("#type").val();
+            var Teacher = $("#teacher").val();
+            var Class = $("#class").val();
+            var Department = $("#department").val();
+
+            $("#no-record").hide();
+            $("#records").addClass('scroll');
+            switch (Type) {
+                case '通識':
+                    $("#pass-general").show();
+                    $(".general-name").append('<div><u class="fw-bolder"><a class="general-color" href="">' + Id + '</a></u><span class="d-inline-block ms-2">' + Teacher + '</span><span class="d-inline-block ms-1">' + Class + '</span></div>');
+                    break;
+                case '其他系課程':
+                    $("#pass-department").show();
+                    $(".department-name").append('<div><u class="fw-bolder"><a class="department-color" href="">' + Id + '</a></u><span class="d-inline-block ms-2">' + Department + '</span><span class="d-inline-block ms-1">' + Teacher + '</span><span class="d-inline-block ms-1">' + Class + '</span></div>');
+                    break;
+                case '教程':
+                    $("#pass-education").show();
+                    $(".education-name").append('<div><u class="fw-bolder"><a class="education-color" href="">' + Id + '</a></u><span class="d-inline-block ms-2">' + Teacher + '</span><span class="d-inline-block ms-1">' + Class + '</span></div>');
+                    break;
+                case '精進中、英外文':
+                    $("#pass-english").show();
+                    $(".english-name").append('<div><u class="fw-bolder"><a class="english-color" href="">' + Id + '</a></u><span class="d-inline-block ms-2">' + Teacher + '</span><span class="d-inline-block ms-1">' + Class + '</span></div>');
+                    break;
+                case '大二體育':
+                    $("#pass-PEclass2").show();
+                    $(".PEclass2-name").append('<div><u class="fw-bolder"><a class="PEclass-color" href="">' + Id + '</a></u><span class="d-inline-block ms-2">' + Teacher + '</span><span class="d-inline-block ms-1">' + Class + '</span></div>');
+                    break;
+                case '大三、四體育':
+                    $("#pass-PEclass3").show();
+                    $(".PEclass3-name").append('<div><u class="fw-bolder"><a class="PEclass-color" href="">' + Id + '</a></u><span class="d-inline-block ms-2">' + Teacher + '</span><span class="d-inline-block ms-1">' + Class + '</span></div>');
+                    break;
+                case '軍訓':
+                    $("#pass-military").show();
+                    $(".military-name").append('<div><u class="fw-bolder"><a class="military-color" href="">' + Id + '</a></u><span class="d-inline-block ms-2">' + Teacher + '</span><span class="d-inline-block ms-1">' + Class + '</span></div>');
+                    break;
+                default:
+                    console.log(`Sorry, we are out of ${Type}.`);
+            }
+        });
+
+        $("#delete").click(function () {
+            var Id = $("#id").val();
+            $("#exampleModal").modal("show");
+            $("#right-side").addClass("after_modal_appended");
+            //appending modal background inside the blue div
+            $('.modal-backdrop').appendTo('#right-side');
+            //remove the padding right and modal-open class from the body tag which bootstrap adds when a modal is shown
+            $('body').removeClass("modal-open");
+            $('.delete-id').text(Id);
+        });
+
+        $(".modalBtn-delete").click(function () {
+            $("#exampleModalToggle2").modal("show");
+            $("#right-side").addClass("after_modal_appende");
+            //appending modal background inside the blue div
+            $('.modal-backdrop').appendTo('#right-side');
+            //remove the padding right and modal-open class from the body tag which bootstrap adds when a modal is shown
+            $('body').removeClass("modal-open");
+            $('.delete-id').text(Id);
+            var Id = $("#id").val();
+            newId = ++Id;
+            $("#id").val(newId);
+        })
+
+        function passToggle() {
+            $("#pass-records").toggle();
+        }
+        function waitToggle() {
+            $("#wait-records").toggle();
+        }
+    </script>
+</body>
+
+</html>
